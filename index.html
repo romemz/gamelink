@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes Digitales - Distribución Externa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #2b4b8a;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        ul {
+            margin-top: 5px;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1f3d7a;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SABER HACER 1 -->
+    <div class="card">
+        <div class="title">SABER HACER 1: Reporte del tipo de empaquetado y la plataforma digital de distribución (EXTERNA)</div>
+
+        <h2>1. Tipo de empaquetado</h2>
+
+        <h3>Android</h3>
+        <ul>
+            <li><strong>APK (Android Package Kit):</strong> formato ideal para distribución externa, permite instalar la app mediante archivo.</li>
+            <li><strong>AAB:</strong> no se usa en distribución externa, requiere Google Play.</li>
+        </ul>
+
+        <h3>iOS</h3>
+        <p>La distribución externa es limitada debido a las restricciones de Apple. Solo se permite mediante:</p>
+        <ul>
+            <li>TestFlight</li>
+            <li>MDM empresarial</li>
+            <li>Ad Hoc Distribution</li>
+        </ul>
+
+        <h2>2. Plataforma digital de distribución EXTERNA</h2>
+
+        <h3>a) Sitio web o servidor propio</h3>
+        <ul>
+            <li>Descarga del APK desde página web.</li>
+            <li>Google Drive / Dropbox.</li>
+            <li>Servidor privado o institucional.</li>
+        </ul>
+
+        <h3>b) Servicios de distribución externa</h3>
+        <ul>
+            <li>Firebase App Distribution</li>
+            <li>Diawi</li>
+            <li>App Center</li>
+        </ul>
+
+        <h3>c) Distribución empresarial</h3>
+        <ul>
+            <li>Sistemas MDM</li>
+            <li>Instalación mediante código QR</li>
+            <li>Enlace directo controlado internamente</li>
+        </ul>
+    </div>
+
+    <!-- SABER HACER 2 -->
+    <div class="card">
+        <div class="title">SABER HACER 2: Reporte Digital – Canales de distribución y herramientas de despliegue (EXTERNA)</div>
+
+        <h2>1. Canales de distribución EXTERNA</h2>
+
+        <h3>a) Descarga directa</h3>
+        <ul>
+            <li>Archivo APK desde página web</li>
+            <li>Enlaces de nube (Drive, Mega, MediaFire)</li>
+            <li>Código QR</li>
+        </ul>
+
+        <h3>b) Distribución interna</h3>
+        <ul>
+            <li>Servidores locales</li>
+            <li>Sistemas MDM</li>
+            <li>Redes internas</li>
+        </ul>
+
+        <h3>c) Plataformas externas de pruebas</h3>
+        <ul>
+            <li>Firebase App Distribution</li>
+            <li>App Center</li>
+            <li>Diawi</li>
+        </ul>
+
+        <h2>2. Herramientas de despliegue</h2>
+
+        <h3>Android</h3>
+        <ul>
+            <li>Android Studio (para generar APK)</li>
+            <li>Firebase App Distribution</li>
+            <li>App Center</li>
+            <li>Diawi</li>
+        </ul>
+
+        <h3>iOS</h3>
+        <ul>
+            <li>Xcode</li>
+            <li>TestFlight</li>
+            <li>MDM o certificados Ad Hoc</li>
+        </ul>
+    </div>
+
+    <!-- SABER HACER 3 -->
+    <div class="card">
+        <div class="title">SABER HACER 3: Reporte Digital – Requisitos y políticas para distribución externa</div>
+
+        <h2>1. Requisitos técnicos</h2>
+        <ul>
+            <li>Permitir instalación desde “fuentes desconocidas”.</li>
+            <li>APK firmado digitalmente.</li>
+            <li>Uso correcto de permisos.</li>
+            <li>Optimización del archivo APK.</li>
+        </ul>
+
+        <h2>2. Requisitos de seguridad</h2>
+        <ul>
+            <li>Proteger API Keys y archivos sensibles.</li>
+            <li>Usar HTTPS en toda comunicación.</li>
+            <li>Evitar modificación del APK mediante firma segura.</li>
+        </ul>
+
+        <h2>3. Requisitos legales</h2>
+        <ul>
+            <li>Incluir Política de Privacidad accesible.</li>
+            <li>Informar sobre uso de permisos (ubicación, cámara, contactos).</li>
+            <li>Solicitar consentimiento si se recaban datos.</li>
+        </ul>
+    </div>
+
+    <!-- SABER HACER 4 -->
+    <div class="card">
+        <div class="title">SABER HACER 4: Reporte Digital – Publicación de la aplicación (EXTERNA)</div>
+
+        <h2>1. Preparación previa</h2>
+        <ul>
+            <li>Generar APK firmado.</li>
+            <li>Probar en varios dispositivos.</li>
+            <li>Reunir: nombre, versión, icono, capturas y APK.</li>
+        </ul>
+
+        <h2>2. Métodos de publicación externa</h2>
+
+        <h3>a) Página web / servidor</h3>
+        <ul>
+            <li>Subir APK.</li>
+            <li>Generar enlace de descarga.</li>
+            <li>Compartir enlace con usuarios.</li>
+        </ul>
+
+        <h3>b) Enlace directo</h3>
+        <ul>
+            <li>Google Drive</li>
+            <li>Mega</li>
+            <li>Dropbox</li>
+        </ul>
+
+        <h3>c) Código QR</h3>
+        <ul>
+            <li>Generar un QR que dirija al APK.</li>
+        </ul>
+
+        <h3>d) Plataformas externas</h3>
+        <ul>
+            <li>Firebase App Distribution</li>
+            <li>App Center</li>
+            <li>Diawi</li>
+        </ul>
+
+        <h2>3. Instalación por parte del usuario</h2>
+        <ul>
+            <li>Activar “Fuentes desconocidas”.</li>
+            <li>Ejecutar el APK.</li>
+            <li>Aceptar permisos.</li>
+        </ul>
+
+        <h2>4. Actualizaciones</h2>
+        <ul>
+            <li>Subir nuevo APK a la misma ruta.</li>
+            <li>Notificar a los usuarios del nuevo enlace.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
